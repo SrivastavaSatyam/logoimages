@@ -1,0 +1,28 @@
+{% extends 'base.html'%}
+{%block title%}| SIGN-UP{%endblock%}
+{%block content%}
+<div class="section">
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form method="POST">
+					{%csrf_token%}
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" name="username" placeholder="User name" required="">
+					<input type="text" name="firstname" placeholder="First name" required="">
+					<input type="text" name="lastname" placeholder="Last name" required="">
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="password1" id="password"placeholder="Password" required="">
+					<input type="password" name="password2" id="password" placeholder=" Confirm Password" required="">
+					<button href="{%url 'login'%}" id="user">Sign up</button>
+				</form>
+			
+			<small><a class="alreadyaccount shadow-dark text-center " href="{%url 'login'%}">Already have an account<a></small>
+			</div>
+
+			
+	</div>
+
+</div>
+{%endblock%}

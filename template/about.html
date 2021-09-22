@@ -1,0 +1,87 @@
+{%extends 'base.html'%}
+{%load static%}
+{%block title%}| ABOUT{%endblock%}
+
+{%block content%}
+<div id="carouselExampleControls" class="carousel slide m-5 p-5 " data-bs-ride="carousel">
+  <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="card " id="aboutcard">
+                <div class="row">
+                    <div class="col-md-4 col-sm-3">
+                        <img src="https://i.pinimg.com/736x/ea/69/dc/ea69dc6226e72a33f82d3add20b470df.jpg" class="img-fluid carouselimg rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8 col-sm-9">
+                        <div class="card-body" id="carouselabout">
+                            <h5 class="card-title">Aman Mittal</h5>
+                            <p class="card-text mt-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Connect to us</small></p>
+                            <a href="https://www.linkedin.com/in/satyam-srivastava-63a88519b" target='blank'>
+                                <i class="fa fa-linkedin-square mr-4" style="font-size:48px;color:blue "></i>
+                            </a>  
+                            <a href="https://github.com/SrivastavaSatyam" target ='blank'> 
+                                <i class="fa fa-github mr-4" style="font-size:48px;color:black"></i>
+                            </a>   
+                            <a href="https://instagram.com/srivastava8815" target ='blank'> 
+                                <i class="fa fa-instagram mr-4" style="font-size:48px;color:#8a3ab9"></i>
+                            </a> 
+                            <a href="https://srivastava6808.medium.com/" target ='blank'> 
+                                <i class="fa fa-medium mr-4" style="font-size:48px;color:#000000"></i>
+                                <!-- <img class="mediumlogo" src= "{% static 'images/medium.png' %}" height="30px" alt=""> -->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+    
+        <div class="carousel-item ">
+            <div class="card "id="aboutcard" >
+                <div class="row ">
+                    <div class="col-md-4 col-sm-3">
+                        <img src="https://i.pinimg.com/564x/ec/70/2f/ec702ff92166afd47b51f6f8d9ebe521.jpg" class="img-fluid carouselimg rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8 col-sm-9">
+                        <div class="card-body" id="carouselabout">
+                            <h5 class="card-title">Satyam Srivastava</h5>
+                            <p class="card-text mt-5">Td-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Connect to us</small></p>
+                            <a href="https://www.linkedin.com/in/satyam-srivastava-63a88519b" target='blank'>
+                                <i class="fa fa-linkedin-square mr-4" style="font-size:48px;color:blue "></i>
+                            </a>  
+                            <a href="https://github.com/SrivastavaSatyam" target ='blank'> 
+                                <i class="fa fa-github mr-4" style="font-size:48px;color:black"></i>
+                            </a>   
+                            <a href="https://instagram.com/srivastava8815" target ='blank'> 
+                                <i class="fa fa-instagram mr-4" style="font-size:48px;color:#8a3ab9"></i>
+                            </a> 
+                            <a href="https://srivastava6808.medium.com/" target ='blank'> 
+                                <i class="fa fa-medium mr-4" style="font-size:48px;color:#000000"></i>
+                                <!-- <img class="mediumlogo" src={% static 'images/medium.png'%} height="30px" > -->
+                            </a>
+                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  
+</div>
+
+
+
+
+
+
+
+{%endblock%}

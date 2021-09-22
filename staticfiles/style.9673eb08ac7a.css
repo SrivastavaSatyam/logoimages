@@ -1,0 +1,347 @@
+body{
+    background-image: linear-gradient(35deg, rgba(253, 253, 253, 0.03) 0%, rgba(253, 253, 253, 0.03) 53%,rgba(109, 109, 109, 0.03) 53%, rgba(109, 109, 109, 0.03) 59%,rgba(228, 228, 228, 0.03) 59%, rgba(228, 228, 228, 0.03) 66%,rgba(42, 42, 42, 0.03) 66%, rgba(42, 42, 42, 0.03) 95%,rgba(165, 165, 165, 0.03) 95%, rgba(165, 165, 165, 0.03) 100%),linear-gradient(205deg, rgba(62, 62, 62, 0.03) 0%, rgba(62, 62, 62, 0.03) 31%,rgba(200, 200, 200, 0.03) 31%, rgba(200, 200, 200, 0.03) 41%,rgba(30, 30, 30, 0.03) 41%, rgba(30, 30, 30, 0.03) 47%,rgba(151, 151, 151, 0.03) 47%, rgba(151, 151, 151, 0.03) 60%,rgba(95, 95, 95, 0.03) 60%, rgba(95, 95, 95, 0.03) 100%),linear-gradient(30deg, rgba(7, 7, 7, 0.03) 0%, rgba(7, 7, 7, 0.03) 19%,rgba(63, 63, 63, 0.03) 19%, rgba(63, 63, 63, 0.03) 33%,rgba(175, 175, 175, 0.03) 33%, rgba(175, 175, 175, 0.03) 37%,rgba(244, 244, 244, 0.03) 37%, rgba(244, 244, 244, 0.03) 60%,rgba(177, 177, 177, 0.03) 60%, rgba(177, 177, 177, 0.03) 100%),linear-gradient(90deg, rgb(162, 162, 162),rgb(229, 229, 229));
+
+  }
+  a{
+    text-decoration:none;
+    padding-right:20px;
+  }
+  .mediumlogo{
+    vertical-align: initial;
+  }
+
+  .navbar{
+      background-image: linear-gradient(149deg, rgba(85, 85, 85, 0.05) 0%, rgba(85, 85, 85, 0.05) 25%,rgba(11, 11, 11, 0.05) 25%, rgba(11, 11, 11, 0.05) 50%,rgba(182, 182, 182, 0.05) 50%, rgba(182, 182, 182, 0.05) 75%,rgba(28, 28, 28, 0.05) 75%, rgba(28, 28, 28, 0.05) 100%),linear-gradient(232deg, rgba(145, 145, 145, 0.05) 0%, rgba(145, 145, 145, 0.05) 25%,rgba(165, 165, 165, 0.05) 25%, rgba(165, 165, 165, 0.05) 50%,rgba(84, 84, 84, 0.05) 50%, rgba(84, 84, 84, 0.05) 75%,rgba(131, 131, 131, 0.05) 75%, rgba(131, 131, 131, 0.05) 100%),linear-gradient(321deg, rgba(254, 254, 254, 0.05) 0%, rgba(254, 254, 254, 0.05) 25%,rgba(249, 249, 249, 0.05) 25%, rgba(249, 249, 249, 0.05) 50%,rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 75%,rgba(104, 104, 104, 0.05) 75%, rgba(104, 104, 104, 0.05) 100%),linear-gradient(90deg, rgb(21, 8, 116),rgb(111, 197, 250)); 
+      height:80px;
+          z-index: 9999;
+      }
+  .row{
+      border:5px  ;
+      box-shadow:20px
+  }
+  #row1{
+    height:auto;
+  }
+  #row2{
+    height:auto;
+  }
+
+  #imginfo{
+    height: 238px;
+    margin-top: 74px;
+  }
+  #info {
+  margin-top: 27px;
+  font-size: 13px;
+  }
+  #btn-login{
+    width: 95px;
+    height: 41px;
+    margin-top: 14px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  #blockform{
+    padding-top:100px;
+    padding-bottom:90px;
+    padding-left:90px;
+  }
+  .card{
+      
+      margin:20px;
+      height: auto;
+  }
+  .card-img-top{
+      height:22rem;
+      width:22rem;
+  }
+  #display-body{
+      margin:2.5rem 1rem;
+  }
+  .carousel{
+          background-image: linear-gradient(149deg, rgba(85, 85, 85, 0.05) 0%, rgba(85, 85, 85, 0.05) 25%,rgba(11, 11, 11, 0.05) 25%, rgba(11, 11, 11, 0.05) 50%,rgba(182, 182, 182, 0.05) 50%, rgba(182, 182, 182, 0.05) 75%,rgba(28, 28, 28, 0.05) 75%, rgba(28, 28, 28, 0.05) 100%),linear-gradient(232deg, rgba(145, 145, 145, 0.05) 0%, rgba(145, 145, 145, 0.05) 25%,rgba(165, 165, 165, 0.05) 25%, rgba(165, 165, 165, 0.05) 50%,rgba(84, 84, 84, 0.05) 50%, rgba(84, 84, 84, 0.05) 75%,rgba(131, 131, 131, 0.05) 75%, rgba(131, 131, 131, 0.05) 100%),linear-gradient(321deg, rgba(254, 254, 254, 0.05) 0%, rgba(254, 254, 254, 0.05) 25%,rgba(249, 249, 249, 0.05) 25%, rgba(249, 249, 249, 0.05) 50%,rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 75%,rgba(104, 104, 104, 0.05) 75%, rgba(104, 104, 104, 0.05) 100%),linear-gradient(90deg, rgb(21, 8, 116),rgb(111, 197, 250)); 
+
+  }
+  #carouselabout{
+    height:50px;
+
+  }
+  .carouselimg{
+
+    max-width: 100%;
+    height: 343px;
+    padding-left:50px;
+  }
+  #img-display{
+    height: 370px;
+    width: 428px;
+  }
+  #img-top{
+    height: 214px;
+    width: 276px;
+  }
+  #search_input{
+    font: status-bar;
+    background-image: linear-gradient(170deg, rgba(2, 2, 2,0.02) 0%, rgba(2, 2, 2,0.02) 51%,transparent 51%, transparent 100%),linear-gradient(212deg, rgba(82, 82, 82,0.01) 0%, rgba(82, 82, 82,0.01) 39%,transparent 39%, transparent 100%),linear-gradient(95deg, rgba(73, 73, 73,0.01) 0%, rgba(73, 73, 73,0.01) 66%,transparent 66%, transparent 100%),linear-gradient(119deg, rgba(174, 174, 174,0.01) 0%, rgba(174, 174, 174,0.01) 67%,transparent 67%, transparent 100%),linear-gradient(43deg, rgba(237, 237, 237,0.03) 0%, rgba(237, 237, 237,0.03) 13%,transparent 13%, transparent 100%),linear-gradient(148deg, rgba(11, 11, 11,0.01) 0%, rgba(11, 11, 11,0.01) 9%,transparent 9%, transparent 100%),linear-gradient(17deg, rgba(233, 233, 233,0.02) 0%, rgba(233, 233, 233,0.02) 13%,transparent 13%, transparent 100%),linear-gradient(198deg, rgba(248, 248, 248,0.02) 0%, rgba(248, 248, 248,0.02) 43%,transparent 43%, transparent 100%),linear-gradient(199deg, rgba(125, 125, 125,0.01) 0%, rgba(125, 125, 125,0.01) 39%,transparent 39%, transparent 100%),linear-gradient(12deg, rgba(2, 2, 2,0.02) 0%, rgba(2, 2, 2,0.02) 46%,transparent 46%, transparent 100%),linear-gradient(341deg, rgba(227, 227, 227,0.02) 0%, rgba(227, 227, 227,0.02) 13%,transparent 13%, transparent 100%),linear-gradient(215deg, rgba(201, 201, 201,0.03) 0%, rgba(201, 201, 201,0.03) 56%,transparent 56%, transparent 100%),linear-gradient(199deg, rgba(189, 189, 189,0.02) 0%, rgba(189, 189, 189,0.02) 2%,transparent 2%, transparent 100%),linear-gradient(34deg, rgba(116, 116, 116,0.03) 0%, rgba(116, 116, 116,0.03) 63%,transparent 63%, transparent 100%),linear-gradient(50deg, rgba(230, 230, 230,0.01) 0%, rgba(230, 230, 230,0.01) 30%,transparent 30%, transparent 100%),linear-gradient(162deg, rgba(10, 10, 10,0.02) 0%, rgba(10, 10, 10,0.02) 58%,transparent 58%, transparent 100%),linear-gradient(327deg, rgba(35, 35, 35,0.01) 0%, rgba(35, 35, 35,0.01) 15%,transparent 15%, transparent 100%),linear-gradient(255deg, rgba(191, 191, 191,0.03) 0%, rgba(191, 191, 191,0.03) 74%,transparent 74%, transparent 100%),linear-gradient(311deg, rgba(210, 210, 210,0.03) 0%, rgba(210, 210, 210,0.03) 46%,transparent 46%, transparent 100%),linear-gradient(272deg, rgba(212, 212, 212,0.01) 0%, rgba(212, 212, 212,0.01) 19%,transparent 19%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+  }
+  #png{
+      margin-left: 100px;
+  }
+  .headdernav{
+      background-image: linear-gradient(149deg, rgba(85, 85, 85, 0.05) 0%, rgba(85, 85, 85, 0.05) 25%,rgba(11, 11, 11, 0.05) 25%, rgba(11, 11, 11, 0.05) 50%,rgba(182, 182, 182, 0.05) 50%, rgba(182, 182, 182, 0.05) 75%,rgba(28, 28, 28, 0.05) 75%, rgba(28, 28, 28, 0.05) 100%),linear-gradient(232deg, rgba(145, 145, 145, 0.05) 0%, rgba(145, 145, 145, 0.05) 25%,rgba(165, 165, 165, 0.05) 25%, rgba(165, 165, 165, 0.05) 50%,rgba(84, 84, 84, 0.05) 50%, rgba(84, 84, 84, 0.05) 75%,rgba(131, 131, 131, 0.05) 75%, rgba(131, 131, 131, 0.05) 100%),linear-gradient(321deg, rgba(254, 254, 254, 0.05) 0%, rgba(254, 254, 254, 0.05) 25%,rgba(249, 249, 249, 0.05) 25%, rgba(249, 249, 249, 0.05) 50%,rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 75%,rgba(104, 104, 104, 0.05) 75%, rgba(104, 104, 104, 0.05) 100%),linear-gradient(90deg, rgb(21, 8, 116),rgb(111, 197, 250)); 
+  }
+  .carousel{
+    height:450px;
+  }
+  #aboutcard{
+    height:346px;
+    margin:0;
+    background-image: radial-gradient(circle at 27% 33%, rgba(193, 193, 193,0.04) 0%, rgba(193, 193, 193,0.04) 50%,rgba(77, 77, 77,0.04) 50%, rgba(77, 77, 77,0.04) 100%),radial-gradient(circle at 35% 8%, rgba(183, 183, 183,0.04) 0%, rgba(183, 183, 183,0.04) 50%,rgba(25, 25, 25,0.04) 50%, rgba(25, 25, 25,0.04) 100%),radial-gradient(circle at 93% 50%, rgba(218, 218, 218,0.04) 0%, rgba(218, 218, 218,0.04) 50%,rgba(127, 127, 127,0.04) 50%, rgba(127, 127, 127,0.04) 100%),linear-gradient(90deg, hsl(116,0%,99%),hsl(116,0%,99%));
+  }
+  .section{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background-image: linear-gradient(35deg, rgba(253, 253, 253, 0.03) 0%, rgba(253, 253, 253, 0.03) 53%,rgba(109, 109, 109, 0.03) 53%, rgba(109, 109, 109, 0.03) 59%,rgba(228, 228, 228, 0.03) 59%, rgba(228, 228, 228, 0.03) 66%,rgba(42, 42, 42, 0.03) 66%, rgba(42, 42, 42, 0.03) 95%,rgba(165, 165, 165, 0.03) 95%, rgba(165, 165, 165, 0.03) 100%),linear-gradient(205deg, rgba(62, 62, 62, 0.03) 0%, rgba(62, 62, 62, 0.03) 31%,rgba(200, 200, 200, 0.03) 31%, rgba(200, 200, 200, 0.03) 41%,rgba(30, 30, 30, 0.03) 41%, rgba(30, 30, 30, 0.03) 47%,rgba(151, 151, 151, 0.03) 47%, rgba(151, 151, 151, 0.03) 60%,rgba(95, 95, 95, 0.03) 60%, rgba(95, 95, 95, 0.03) 100%),linear-gradient(30deg, rgba(7, 7, 7, 0.03) 0%, rgba(7, 7, 7, 0.03) 19%,rgba(63, 63, 63, 0.03) 19%, rgba(63, 63, 63, 0.03) 33%,rgba(175, 175, 175, 0.03) 33%, rgba(175, 175, 175, 0.03) 37%,rgba(244, 244, 244, 0.03) 37%, rgba(244, 244, 244, 0.03) 60%,rgba(177, 177, 177, 0.03) 60%, rgba(177, 177, 177, 0.03) 100%),linear-gradient(90deg, rgb(162, 162, 162),rgb(229, 229, 229));
+
+  }
+  .main{
+    position: absolute;
+    margin-top: -104px;
+      width: 350px;
+    height: 480px;
+    background: red;
+    overflow: hidden;
+    background-image: linear-gradient(149deg, rgba(85, 85, 85, 0.05) 0%, rgba(85, 85, 85, 0.05) 25%,rgba(11, 11, 11, 0.05) 25%, rgba(11, 11, 11, 0.05) 50%,rgba(182, 182, 182, 0.05) 50%, rgba(182, 182, 182, 0.05) 75%,rgba(28, 28, 28, 0.05) 75%, rgba(28, 28, 28, 0.05) 100%),linear-gradient(232deg, rgba(145, 145, 145, 0.05) 0%, rgba(145, 145, 145, 0.05) 25%,rgba(165, 165, 165, 0.05) 25%, rgba(165, 165, 165, 0.05) 50%,rgba(84, 84, 84, 0.05) 50%, rgba(84, 84, 84, 0.05) 75%,rgba(131, 131, 131, 0.05) 75%, rgba(131, 131, 131, 0.05) 100%),linear-gradient(321deg, rgba(254, 254, 254, 0.05) 0%, rgba(254, 254, 254, 0.05) 25%,rgba(249, 249, 249, 0.05) 25%, rgba(249, 249, 249, 0.05) 50%,rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 75%,rgba(104, 104, 104, 0.05) 75%, rgba(104, 104, 104, 0.05) 100%),linear-gradient(90deg, rgb(21, 8, 116),rgb(111, 197, 250)); 
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+
+  }
+
+  #chk{
+    display: none;
+  }
+  .signup{
+    position: relative;
+    width:100%;
+    height: 100%;
+  }
+  label{
+    color: #fff;
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+  }
+  input{
+    width: 60%;
+    height: 24px;
+    background: #e0dede;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+  #user{
+    width: 60%;
+    height: 30px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #573b8a;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+  }
+  #user:hover{
+    background: #6d44b8;
+  }
+  .login{
+    height: 420px;
+    background-image: radial-gradient(circle at 28% 51%, rgba(206, 206, 206,0.03) 0%, rgba(206, 206, 206,0.03) 17%,transparent 17%, transparent 100%),radial-gradient(circle at 45% 10%, rgba(10, 10, 10,0.03) 0%, rgba(10, 10, 10,0.03) 45%,transparent 45%, transparent 100%),radial-gradient(circle at 48% 44%, rgba(74, 74, 74,0.03) 0%, rgba(74, 74, 74,0.03) 84%,transparent 84%, transparent 100%),radial-gradient(circle at 47% 50%, rgba(186, 186, 186,0.03) 0%, rgba(186, 186, 186,0.03) 23%,transparent 23%, transparent 100%),radial-gradient(circle at 29% 70%, rgba(9, 9, 9,0.03) 0%, rgba(9, 9, 9,0.03) 32%,transparent 32%, transparent 100%),radial-gradient(circle at 2% 75%, rgba(179, 179, 179,0.03) 0%, rgba(179, 179, 179,0.03) 19%,transparent 19%, transparent 100%),radial-gradient(circle at 2% 36%, rgba(26, 26, 26,0.03) 0%, rgba(26, 26, 26,0.03) 1%,transparent 1%, transparent 100%),radial-gradient(circle at 53% 70%, rgba(90, 90, 90,0.03) 0%, rgba(90, 90, 90,0.03) 55%,transparent 55%, transparent 100%),radial-gradient(circle at 28% 92%, rgba(31, 31, 31,0.03) 0%, rgba(31, 31, 31,0.03) 35%,transparent 35%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));	border-radius: 60% / 10%;
+    transform: translateY(-200px);
+    transition: .8s ease-in-out;
+    margin-top: 239px;
+  }
+  .login label{
+    color: #573b8a;
+    transform: scale(.6);
+  }
+
+  #chk:checked ~ .login{
+    transform: translateY(-500px);
+  }
+  #chk:checked ~ .login label{
+    transform: scale(1);	
+  }
+  #chk:checked ~ .signup label{
+    transform: scale(.6);
+  }
+  .alreadyaccount{
+    padding-left: 97px;
+    color:#fff;
+    text-decoration:none;
+  }
+  .alreadyaccount:hover{
+    color:#000;
+  }
+    * {
+  box-sizing: border-box;
+}
+
+/* input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+} */
+
+label {
+  padding: 12px 12px 12px 0;
+
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+  
+  @media screen and (max-width: 200px) {
+    .card-img-top {
+      height: 4rem;
+      width: 4rem;
+      }
+      #png{
+        font-family: monospace;
+      }
+  }
+  @media only screen and (max-width: 500px) {
+    .card-img-top {
+      height: 12rem;
+      width: 12rem;
+      }
+    .card-text{
+      font: menu;
+    }
+    #img-top {
+        height: 112px;
+        width: 201px;
+    }
+    #info{
+      font-size: 11px;
+    }
+    #img-display {
+      height: 190px;
+      width: 234px;
+    }
+    #imginfo {
+      height: auto;
+      margin-top: -20px;
+      font-size: 11px;
+    }
+    #png{
+        margin-left: 47px;
+    }
+    .card-title{
+      font-size: 23px;
+    }
+    #row2{
+          height: auto;
+    }
+    .card{
+          height: auto;
+    }
+    #blockform {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left: 26px;
+    }
+    .main{
+      margin-top: -125px;
+    }
+    .carousel{
+      height: 660px;
+    }
+    #aboutcard{
+      height: 554px;
+    }
+    .carouselimg{
+      height: 187px;
+      padding:0
+    }
+  }
+  @media only screen and (max-width: 900px) {
+        
+        .card-text{
+          font-family: monospace;
+
+        }
+  }
+  @media only screen and (max-width: 1200px) {
+        #blockform{
+    padding-top:100px;
+    padding-bottom:90px;
+
+  }
+  }

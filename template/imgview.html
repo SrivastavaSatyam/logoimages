@@ -1,0 +1,39 @@
+{% extends 'base.html'%}
+{%block title%}| Display{%endblock%}
+{%block content%}
+
+<div class="row  shadow-lg " id="row2">
+    <div class="col-lg-6">
+        
+        <div class="card shadow-lg border-b border-blue-600">
+        <div class="card-body" id="display-body">
+            <h5 class="card-title text-center text-mute">{{img.name}}</h5><hr>
+            <center><img src="{{url_png}}" id="img-display" class="card-img-top" alt="{{i.name}}" >
+            </center>
+        </div>
+        </div>
+        
+    </div>
+    <div class="col-lg-6">
+        
+        <div class="card shadow-lg  border-b border-blue-600">
+        <div class="card-body" id="display-body">
+            <p class="card-title text-center " id="imginfo">{{img.Desc}}</p><hr>
+            <center><a href="{{url_png}}" download="{{url}}" id="{{img.id}} "class="btn btn-primary btn-outline-light p-2 Download">PNG  <span><i class="fa fa-download"></i></span></a>
+                  {% if user.is_authenticated %}
+                    <a href="{{url_svg}}" download="/media/{{img.Image_svg}}" id="{{img.id}}"class="btn btn-success btn-outline-light p-2 Download">SVG  <span><i class="fa fa-download"></i></span></a>
+
+                  {%else%}
+                    <button onclick="location.href='{%url 'login' %}'"  class="btn btn-success btn-outline-light  p-2" > SVG  <span><i class="fa fa-download"></i></span></button>
+                  
+                  {%endif%}
+                  <p class="nod" > No_Of_downloads( <span id="Downloads">0</span> )</p>
+            </center>
+        </div>
+        </div>
+        
+    </div>
+</div>
+
+
+{%endblock%}
