@@ -61,12 +61,12 @@ ROOT_URLCONF = 'logo.urls'
 DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
 GS_BUCKET_NAME = 'logo-image-391ec.appspot.com'
 # STATICFILES_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
-GOOGLE_APPLICATION_CREDENTIALS=os.path.join(BASE_DIR, 'Service Account\serviceaccount.json')
-GS_CREDENTIALS = service_account.Credentials.from_service_account_file(os.path.join(BASE_DIR, 'Service Account\serviceaccount.json'))
+# GOOGLE_APPLICATION_CREDENTIALS=os.path.join(BASE_DIR, 'Service Account\serviceaccount.json')
+# GS_CREDENTIALS = service_account.Credentials.from_service_account_file(os.path.join(BASE_DIR, 'Service Account\serviceaccount.json'))
 # GS_CREDENTIALS = "firebase-adminsdk-yqff0@logo-image-391ec.iam.gserviceaccount.com"
-# service_account_info = json.load(open('static/logo-image-391ec-firebase-adminsdk-yqff0-f1964ad8d3.json'))
-# credentials = service_account.Credentials.from_service_account_info(
-#     service_account_info)
+service_account_info = json.load(open('Service Account\logo-image-391ec-firebase-adminsdk-yqff0-f1964ad8d3.json'))
+credentials = service_account.Credentials.from_service_account_info(
+    service_account_info)
 
 TEMPLATES = [
     {
