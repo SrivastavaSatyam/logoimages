@@ -64,7 +64,7 @@ GS_BUCKET_NAME = 'logo-image-391ec.appspot.com'
 # GOOGLE_APPLICATION_CREDENTIALS=os.path.join(BASE_DIR, 'Service Account\serviceaccount.json')
 # GS_CREDENTIALS = service_account.Credentials.from_service_account_file(os.path.join(BASE_DIR, 'Service Account\serviceaccount.json'))
 # GS_CREDENTIALS = "firebase-adminsdk-yqff0@logo-image-391ec.iam.gserviceaccount.com"
-service_account_info = json.load(open('Service Account\logo-image-391ec-firebase-adminsdk-yqff0-f1964ad8d3.json'))
+service_account_info = json.load(open('static\logo-image-326617-61cc99ea3b98.json'))
 credentials = service_account.Credentials.from_service_account_info(
     service_account_info)
 
