@@ -48,4 +48,4 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 handler400='images.views.error_400'
 handler403='images.views.error_403'
 handler404='images.views.error_404'
-# handler500='images.views.error_500'
+handler500='images.views.error_500'

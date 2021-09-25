@@ -24,6 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-lv0ds7&3(hl#=%g!ksmatvca48bewmxi4fdn8)+d%3%!fv9n#-'
+# SECRET_KEY=  os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -62,11 +63,11 @@ DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
 GS_BUCKET_NAME = 'logo-image-391ec.appspot.com'
 # STATICFILES_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
 # GOOGLE_APPLICATION_CREDENTIALS=os.path.join(BASE_DIR, 'Service Account\serviceaccount.json')
-# GS_CREDENTIALS = service_account.Credentials.from_service_account_file(os.path.join(BASE_DIR, 'Service Account\serviceaccount.json'))
+GS_CREDENTIALS = service_account.Credentials.from_service_account_file(os.path.join(BASE_DIR, 'Service Account\serviceaccount.json'))
 # GS_CREDENTIALS = "firebase-adminsdk-yqff0@logo-image-391ec.iam.gserviceaccount.com"
-service_account_info = json.load(open('static\logo-image-326617-61cc99ea3b98.json'))
-credentials = service_account.Credentials.from_service_account_info(
-    service_account_info)
+# service_account_info = json.load(open('static\logo-image-326617-61cc99ea3b98.json'))
+# credentials = service_account.Credentials.from_service_account_info(
+#     service_account_info)
 
 TEMPLATES = [
     {

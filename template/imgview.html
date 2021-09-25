@@ -19,7 +19,9 @@
         <div class="card shadow-lg  border-b border-blue-600">
         <div class="card-body" id="display-body">
             <p class="card-title text-center " id="imginfo">{{img.Desc}}</p><hr>
-            <center><a href="{{url_png}}" download="{{url}}" id="{{img.id}} "class="btn btn-primary btn-outline-light p-2 Download">PNG  <span><i class="fa fa-download"></i></span></a>
+            <center><a href="{{url_png}}" download="{{url}}" id="{{img.id}} "class="btn btn-primary btn-outline-light p-2 Download">PNG  <span><i class="fa fa-download">
+                <!-- <input type="hidden" name="count" value="0"> -->
+            </i></span></a>
                   {% if user.is_authenticated %}
                     <a href="{{url_svg}}" download="/media/{{img.Image_svg}}" id="{{img.id}}"class="btn btn-success btn-outline-light p-2 Download">SVG  <span><i class="fa fa-download"></i></span></a>
 
@@ -27,7 +29,7 @@
                     <button onclick="location.href='{%url 'login' %}'"  class="btn btn-success btn-outline-light  p-2" > SVG  <span><i class="fa fa-download"></i></span></button>
                   
                   {%endif%}
-                  <p class="nod" > No_Of_downloads( <span id="Downloads">0</span> )</p>
+                  <p class="nod" > No_Of_downloads( <span id="Downloads" name="downloads">0</span> )</p>
             </center>
         </div>
         </div>
